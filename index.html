@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="container">
+        <div class="todo">
+            <header>
+                <h1>To-Do</h1>
+                <div class="today">
+                    <h2>00.00.0000</h2>
+                </div>
+            </header>
+            <div class="add-area">
+                <button onclick="add()"><i class="ri-sticky-note-add-fill"></i></button>
+                <input type="text" id="input-box" placeholder="Add New Todo">
+            </div>
+            <div class="list-area">
+                <ul id="list">
+                    <li class="checked"></li>
+                </ul>
+            </div>
+            <footer>
+                <h2>Coded by Mehmet Emin Atmacaoğlu</h2>
+            </footer>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

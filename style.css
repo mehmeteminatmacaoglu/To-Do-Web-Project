@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+:root {
+    --bgcolor: #08082E;
+    --primary: #7C8FFF;
+    --secondary: #4C66DA;
+    --accent: #26408C;
+    --text: #FBFBFE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text);
+    background-color: var(--bgcolor);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.todo {
+    width: 100%;
+    max-width: 1000px;
+    margin: 250px auto 20px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background-color: var(--primary);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.todo h1 h2 {
+    display: flex;
+    font-weight: 900;
+    align-items: center;
+}
+
+.add-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-left: 2.5rem;
+    background: var(--secondary);
+}
+
+.add-area button {
+    border: none;
+    outline: none;
+    margin-right: 0.5rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+.add-area i {
+    font-size: 35px;
+    color: var(--text);
+}
+
+.add-area ::placeholder {
+    font-weight: 500;
+    font-size: 25px;
+    color: #8B8B8B;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    font-size: 24px;
+    background: transparent;
+    color: var(--text);
+}
+
+.list-area {
+    display: none;
+    border-radius: 8px;
+    background: var(--secondary);
+}
+
+ul {
+    font-weight: 500;
+    list-style: none;
+    margin: 1.5rem;
+    padding: 1rem 1.2rem;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: var(--accent);
+    transition: all 0.4s ease;
+}
+
+ul li:hover {
+    background-color: var(--primary);
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked {
+    color: #8B8B8B;
+    text-decoration: line-through;
+}
+
+footer {
+    margin-top: 1.2rem;
+}
+
+footer h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
