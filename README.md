@@ -28,5 +28,18 @@ This project is a minimal To-Do application built with HTML, CSS, and JavaScript
    ```bash
    git clone https://github.com/mehmeteminatmacaoglu/To-Do-Web-Project.git
    ```
-   
+
+---
+
+## Usage
+
+- To add a task, type it in the input field and click “Add” (or the related button).
+- Mark tasks as completed when done.
+- Delete tasks using the delete button.
+- Data is saved with LocalStorage, so it persists even after closing the browser.
+
+---
+
+## View Demo
+
 [View Demo](https://mehmeteminatmacaoglu.github.io/To-Do-Web-Project/)
