@@ -45,3 +45,4 @@ This project is a minimal To-Do application built with HTML, CSS, and JavaScript
 [View Demo](https://mehmeteminatmacaoglu.github.io/To-Do-Web-Project/)
 
 ![Image](https://github.com/mehmeteminatmacaoglu/To-Do-Web-Project/blob/main/image.png)
+![Image2](https://github.com/mehmeteminatmacaoglu/To-Do-Web-Project/blob/main/images2.png)
